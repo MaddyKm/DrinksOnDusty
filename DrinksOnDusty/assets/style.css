@@ -1,0 +1,93 @@
+:root {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  margin: 0px;
+  border: 0px;
+  padding: 0px;
+}
+body {
+  font-family: inherit;
+}
+p {
+  font-family: "Courier New", Courier, monospace;
+}
+main {
+  padding: 1em;
+}
+#navLogo {
+  width: 10%;
+}
+#navBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #dfdfdf;
+}
+#DODHeader {
+  font-size: 2em;
+}
+
+#navList {
+  display: flex;
+  padding: 0;
+}
+
+.navItems {
+  text-decoration: none;
+  font-size: medium;
+  list-style: none;
+  margin: 0.5em;
+  color: black;
+}
+a,
+a:link,
+a:visited {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: limegreen;
+}
+
+#masterForm {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.form {
+  border: 2px solid black;
+  border-radius: 30px;
+  padding: 1em;
+}
+
+.popup {
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+  display: none;
+}
+.popup-content {
+  background-color: white;
+  margin: 15% auto;
+  margin-left: 20%;
+  padding: 20px;
+  width: 60%;
+  height: 30%;
+  font-weight: bolder;
+  box-shadow: 0px 0px 20px limegreen;
+  border-radius: 20px;
+}
+.popup-content button {
+  display: block;
+  margin: 0 auto;
+}
+.show {
+  display: flex;
+}
+#closePopup {
+}

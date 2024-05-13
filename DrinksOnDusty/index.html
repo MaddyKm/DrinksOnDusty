@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Drinks on Dusty</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="assets/style.css" />
+  </head>
+  <body>
+    <header>
+      <nav id="navBar">
+        <img
+          id="navLogo"
+          alt="Drinks on Dusty Logo"
+          src="assets/DrinksOnDustyLogo.jpg"
+        />
+        <h1 id="DODHeader">Drinks on Dusty</h1>
+        <ul id="navList">
+          <li class="navItems"><a>Merch</a></li>
+          <li class="navItems"><a href="contact.html">Contact</a></li>
+          <li class="navItems">
+            <a onclick="popup()" href="#">Listen</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div id="myPopup" class="popup popup-content">
+        <button id="closePopup" onclick="closePopup()">x</button>
+        <a
+          href="https://open.spotify.com/show/5eAiIqLKHmdcyB7JPLF77g"
+          target="_blank"
+          ><img
+            src="./assets/Spotify-Logo-PNG-HD-Image.png"
+            style="height: 45%"
+        /></a>
+        <a
+          href="https://podcasts.apple.com/us/podcast/drinks-on-dusty/id1522075241"
+          target="_blank"
+          ><img
+            src="./assets/apple-podcasts_wechat__cq3l3kjucay6_og.png"
+            style="height: 45%"
+        /></a>
+
+        <a
+          href="https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkcy5idXp6c3Byb3V0LmNvbS8xMzQ1OTUxLnJzcw=="
+          target="_blank"
+          ><img
+            src="./assets/google_podcasts_icon_badge_200x200.png"
+            style="height: 45%"
+        /></a>
+        <a
+          href="https://music.amazon.com/podcasts/dac06646-3c29-44e5-90e7-61321629bb08/drinks-on-dusty"
+          target="_blank"
+          ><img src="./assets/Amazon-Music-Logo.png.webp" style="height: 45%"
+        /></a>
+      </div>
+      <div id="aboutDOD">
+        <h2>About</h2>
+        <p style="font-family: sans-serif">
+          Dustin has his guest pick their favorite alcoholic drinks and he
+          provides them. We let the drinks fuel our conversation talking about
+          theatre, sports, life, cows (maybe even dragons). No topic is out of
+          bounds
+        </p>
+      </div>
+
+      <div id="aboutDustin">
+        <h2>Who is Dustin Sutliff?</h2>
+        <img />
+        <p style="font-family: sans-serif">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci
+          magni ex est asperiores vel, quae mollitia eos perferendis magnam quia
+          placeat in ea laboriosam esse veritatis accusamus voluptatibus fugit
+          dolor?
+        </p>
+      </div>
+    </main>
+  </body>
+  <footer
+    class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top"
+  >
+    <div class="col-md-4 d-flex align-items-center">
+      <a
+        href="/"
+        class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1"
+      >
+        <svg class="bi" width="30" height="24">
+          <use xlink:href="#bootstrap"></use>
+        </svg>
+      </a>
+      <span class="mb-3 mb-md-0 text-muted">© 2022 Company, Inc</span>
+    </div>
+
+    <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+      <li class="ms-3">
+        <a class="text-muted" href="#"
+          ><svg class="bi" width="24" height="24">
+            <use xlink:href="#twitter"></use></svg
+        ></a>
+      </li>
+      <li class="ms-3">
+        <a class="text-muted" href="#"
+          ><svg class="bi" width="24" height="24">
+            <use xlink:href="#instagram"></use></svg
+        ></a>
+      </li>
+      <li class="ms-3">
+        <a class="text-muted" href="#"
+          ><svg class="bi" width="24" height="24">
+            <use xlink:href="#facebook"></use></svg
+        ></a>
+      </li>
+    </ul>
+  </footer>
+  <script src="index.js"></script>
+</html>
